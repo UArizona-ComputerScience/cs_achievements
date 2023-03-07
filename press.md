@@ -4,26 +4,38 @@ title: "Press"
 order: 3
 ---
 
+# 2022
+
 KGUN9 Tucson, 9/2022:
 [University of Arizona creates program to make writing wills easier](https://www.kgun9.com/university-of-arizona-creates-program-to-make-writing-wills-easier)
 
 UA News, 9/2022: 
 [Legal and computer science experts join forces to make writing wills easier](https://news.arizona.edu/story/legal-and-computer-science-experts-join-forces-make-writing-wills-easier)
 
+# 2020
+
 Arizona Daily Star, 1/2020:
 [Socially savvy artificial intelligence to be developed at UA](https://tucson.com/news/local/socially-savvy-artificial-intelligence-to-be-developed-at-ua/article_0f8879d4-3543-56ba-a7dd-12c18c0b3d7b.html)
+
+# 2019
 
 Arizona Daily Star, 6/2019:
 [UA scientists' proposal advances in National Science Foundation's idea competition](https://tucson.com/news/local/ua-scientists-proposal-advances-in-national-science-foundation-s-idea/article_9e1d12e1-1ba3-5c7e-abdd-661f527ea24f.html)
 
+# 2016
+
 Arizona Daily Star (page F22), 1/2016:
 [Automated 'reading' seeks holistic cancer solutions](http://arizonadailystar.az.newsmemory.com/special.php?date=20160124)
+
+# 2015
 
 The Daily Wildcat, 12/2015:
 [UA team creates program to read through libraries of scientific articles and come to cancer conclusions](http://www.wildcat.arizona.edu/article/2015/12/ua-team-creates-program-to-read-through-libraries-of-scientific-articles-and-come-to-cancer-conclusions)
 
 UA News, 9/2015:
 [Raising Computers to Be Good Scientists](http://uanews.org/story/raising-computers-to-be-good-scientists?utm_source=uanow&utm_medium=email&utm_campaign=biweekly-uanow)
+
+# 2014
 
 Slate, 10/2014:
 [Using Tweets to Predict Which States Are Overweight](http://www.slate.com/blogs/future_tense/2014/10/02/university_of_arizona_researchers_analyze_food_references_in_twitter_data.html)
