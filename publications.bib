@@ -1,3 +1,68 @@
+@inproceedings{NoriegaAtala2022NeuralGuidedPS,
+    title = {Neural-Guided Program Synthesis of Information Extraction Rules Using Self-Supervision},
+    author = {Enrique Noriega-Atala and Robert Vacareanu and Gus Hahn-Powell and Marco Antonio Valenzuela-Escarcega},
+    booktitle = {PANDL},
+    abstract="{We propose a neural-based approach for rule synthesis designed to help bridge the gap between the interpretability, precision and maintainability exhibited by rule-based information extraction systems with the scalability and convenience of statistical information extraction systems. This is achieved by avoiding placing the burden of learning another specialized language on domain experts and instead asking them to provide a small set of examples in the form of highlighted spans of text. We introduce a transformer-based architecture that drives a rule synthesis system that leverages a self-supervised approach for pre-training a large-scale language model complemented by an analysis of different loss functions and aggregation mechanisms for variable length sequences of user-annotated spans of text. The results are encouraging and point to different desirable properties, such as speed and quality, depending on the choice of loss and aggregation method. }",
+    url = {https://aclanthology.org/2022.pandl-1.10.pdf},
+    year = {2022}
+}
+
+@inproceedings{Vacareanu2022PatternRankJR,
+    title = {PatternRank: Jointly Ranking Patterns and Extractions for Relation Extraction Using Graph-Based Algorithms},
+    author = {Robert Vacareanu and Dane Bell and Mihai Surdeanu},
+    booktitle = {PANDL},
+    abstract="{In this paper we revisit the direction of using lexico-syntactic patterns for relation extraction instead of today's ubiquitous neural classifiers. We propose a semi-supervised graph-based algorithm for pattern acquisition that scores patterns and the relations they extract jointly, using a variant of PageRank. We insert light supervision in the form of seed patterns or relations, and model it with several custom teleportation probabilities that bias random-walk scores of patterns/relations based on their proximity to correct information. We evaluate our approach on Few-Shot TACRED, and show that our method outperforms (or performs competitively with) more expensive and opaque deep neural networks. Lastly, we thoroughly compare our proposed approach with the seminal RlogF pattern acquisition algorithm of, showing that it outperforms it for all the hyper parameters tested, in all settings. }",
+    url = {https://aclanthology.org/2022.pandl-1.1.pdf},
+    year = {2022}
+}
+
+@article{Varia2022InstructionTF,
+    title = {Instruction Tuning for Few-Shot Aspect-Based Sentiment Analysis},
+    author = {Siddharth Varia and Shuai Wang and Kishaloy Halder and Robert Vacareanu and Miguel Ballesteros and Yassine Benajiba and Neha Ann John and Rishita Anubhai and Smaranda Muresan and Dan Roth},
+    journal = {ArXiv},
+    abstract="{Aspect-based Sentiment Analysis (ABSA) is a ﬁne-grained sentiment analysis task which involves four elements from user-generated texts: aspect term, aspect category, opinion term, and sentiment polarity. Most computational approaches focus on some of the ABSA sub-tasks such as tuple (aspect term, sentiment polarity) or triplet (aspect term, opinion term, sentiment polarity) extraction using either pipeline or joint modeling approaches. Recently, generative approaches have been proposed to extract all four elements as (one or more) quadruplets from text as a single task. In this work, we take a step further and propose a uniﬁed framework for solving ABSA, and the associated sub-tasks to improve the performance in few-shot scenarios. To this end, we ﬁne-tune a T5 model with instructional prompts in a multi-task learning fashion covering all the sub-tasks, as well as the entire quadruple prediction task. In experiments with multiple benchmark data sets, we show that the proposed multi-task prompting approach brings performance boost (by abso-lute 6 . 75 F1) in the few-shot learning setting.}",
+    year = {2022},
+    url = {https://arxiv.org/pdf/2210.06629.pdf},
+    volume = {abs/2210.06629}
+}
+
+@article{Vacareanu2022AHI,
+    title = {A Human-machine Interface for Few-shot Rule Synthesis for Information Extraction},
+    author = {Robert Vacareanu and George Caique Gouveia Barbosa and Enrique Noriega-Atala and Gus Hahn-Powell and Rebecca Sharp and Marco Antonio Valenzuela-Escarcega and Mihai Surdeanu},
+    journal = {Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies: System Demonstrations},
+    abstract = "{We propose a system that assists a user in constructing transparent information extraction models, consisting of patterns (or rules) written in a declarative language, through program synthesis.Users of our system can specify their requirements through the use of examples,which are collected with a search interface.The rule-synthesis system proposes rule candidates and the results of applying them on a textual corpus; the user has the option to accept the candidate, request another option, or adjust the examples provided to the system.Through an interactive evaluation, we show that our approach generates high-precision rules even in a 1-shot setting. On a second evaluation on a widely-used relation extraction dataset (TACRED), our method generates rules that outperform considerably manually written patterns.Our code, demo, and documentation is available at https://clulab.github.io/odinsynth.}",
+    url = {https://aclanthology.org/2022.naacl-demo.8.pdf},
+    year = {2022}
+}
+
+@article{Vacareanu2022FromET,
+    title = {From Examples to Rules: Neural Guided Rule Synthesis for Information Extraction},
+    author = {Robert Vacareanu and Marco Antonio Valenzuela-Escarcega and George Caique Gouveia Barbosa and Rebecca Sharp and Mihai Surdeanu},
+    booktitle = {International Conference on Language Resources and Evaluation},
+    abstract = "{While deep learning approaches to information extraction have had many successes, they can be difficult to augment or maintain as needs shift. Rule-based methods, on the other hand, can be more easily modified. However, crafting rules requires expertise in linguistics and the domain of interest, making it infeasible for most users. Here we attempt to combine the advantages of these two directions while mitigating their drawbacks. We adapt recent advances from the adjacent field of program synthesis to information extraction, synthesizing rules from provided examples. We use a transformer-based architecture to guide an enumerative search, and show that this reduces the number of steps that need to be explored before a rule is found. Further, we show that without training the synthesis algorithm on the specific domain, our synthesized rules achieve state-of-the-art performance on the 1-shot scenario of a task that focuses on few-shot learning for relation classification, and competitive performance in the 5-shot scenario.}",
+    url = {https://aclanthology.org/2022.lrec-1.665.pdf},
+    year = {2022},
+}
+
+@inproceedings{Vacareanu2020AnUM,
+    title = {An Unsupervised Method for Learning Representations of Multi-word Expressions for Semantic Classification},
+    author = {Robert Vacareanu and Marco Antonio Valenzuela-Escarcega and Rebecca Sharp and Mihai Surdeanu},
+    booktitle = {International Conference on Computational Linguistics},
+    abstract = "{This paper explores an unsupervised approach to learning a compositional representation function for multi-word expressions (MWEs), and evaluates it on the Tratz dataset, which associates two-word expressions with the semantic relation between the compound constituents (e.g. the label employer is associated with the noun compound government agency) (Tratz, 2011). The composition function is based on recurrent neural networks, and is trained using the Skip-Gram objective to predict the words in the context of MWEs. Thus our approach can naturally leverage large unlabeled text sources. Further, our method can make use of provided MWEs when available, but can also function as a completely unsupervised algorithm, using MWE boundaries predicted by a single, domain-agnostic part-of-speech pattern. With pre-defined MWE boundaries, our method outperforms the previous state-of-the-art performance on the coarse-grained evaluation of the Tratz dataset (Tratz, 2011), with an F1 score of 50.4%. The unsupervised version of our method approaches the performance of the supervised one, and even outperforms it in some configurations. }",
+    url = {https://www.aclweb.org/anthology/2020.coling-main.297.pdf},
+    year = {2020}
+}
+
+@inproceedings{Vacareanu2020ParsingAT,
+    title = {Parsing as Tagging},
+    author = {Robert Vacareanu and George Caique Gouveia Barbosa and Marco Antonio Valenzuela-Escarcega and Mihai Surdeanu},
+    booktitle = {International Conference on Language Resources and Evaluation},
+    abstract = "{We propose a simple yet accurate method for dependency parsing that treats parsing as tagging (PaT). That is, our approach addresses the parsing of dependency trees with a sequence model implemented with a bidirectional LSTM over BERT embeddings, where the “tag” to be predicted at each token position is the relative position of the corresponding head. For example, for the sentence John eats cake, the tag to be predicted for the token cake is -1 because its head (eats) occurs one token to the left. Despite its simplicity, our approach performs well. For example, our approach outperforms the state-of-the-art method of (Fernández-González and Gómez-Rodríguez, 2019) on Universal Dependencies (UD) by 1.76% unlabeled attachment score (UAS) for English, 1.98% UAS for French, and 1.16% UAS for German. On average, on 12 UD languages, our method with minimal tuning performs comparably with this state-of-the-art approach: better by 0.11% UAS, and worse by 0.58% LAS.}",
+    url = {https://www.aclweb.org/anthology/2020.lrec-1.643.pdf},
+    year = {2020}
+}
+
+
 @article{10.1162/coli_a_00463,
     author = {Tang, Zheng and Surdeanu, Mihai},
     title = "{It Takes Two Flints to Make a Fire: Multitask Learning of Neural Relation and Explanation Classifiers}",
