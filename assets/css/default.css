@@ -1,0 +1,9 @@
+.bi {
+    color: black;
+    font-size: x-large;
+}
+.photo {
+    height: 150px;
+    max-width: 150px;
+    object-fit: cover;
+}
