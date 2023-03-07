@@ -4,7 +4,7 @@ title: "Press"
 order: 3
 ---
 
-<h1>2022</h1>
+<h3>2022</h3>
 
 KGUN9 Tucson, 9/2022:
 [University of Arizona creates program to make writing wills easier](https://www.kgun9.com/university-of-arizona-creates-program-to-make-writing-wills-easier)
