@@ -1,79 +1,17 @@
-@inproceedings{liang-etal-2021-explainable,
-    title = "Explainable Multi-hop Verbal Reasoning Through Internal Monologue",
-    author = "Liang, Zhengzhong  and
-      Bethard, Steven  and
-      Surdeanu, Mihai",
-    booktitle = "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
-    month = jun,
-    year = "2021",
-    address = "Online",
-    publisher = "Association for Computational Linguistics",
-    url = "https://www.aclweb.org/anthology/2021.naacl-main.97",
-    pages = "1225--1250",
-    note = {[Acceptance rate 26\%]},
-    keywords = {question answering},
-}
-@inproceedings{yadav-etal-2021-want,
-    title = "If You Want to Go Far Go Together: Unsupervised Joint Candidate Evidence Retrieval for Multi-hop Question Answering",
-    author = "Yadav, Vikas  and
-      Bethard, Steven  and
-      Surdeanu, Mihai",
-    booktitle = "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
-    month = jun,
-    year = "2021",
-    address = "Online",
-    publisher = "Association for Computational Linguistics",
-    url = "https://www.aclweb.org/anthology/2021.naacl-main.363",
-    pages = "4571--4581",
-    note = {[Acceptance rate 26\%]},
-    keywords = {question answering},
+@article{10.1162/coli_a_00463,
+    author = {Tang, Zheng and Surdeanu, Mihai},
+    title = "{It Takes Two Flints to Make a Fire: Multitask Learning of Neural Relation and Explanation Classifiers}",
+    journal = {Computational Linguistics},
+    pages = {1-40},
+    year = {2022},
+    month = {09},
+    abstract = "{We propose an explainable approach for relation extraction that mitigates the tension between generalization and explainability by jointly training for the two goals. Our approach uses a multi-task learning architecture, which jointly trains a classifier for relation extraction, and a sequence model that labels words in the context of the relation that explain the decisions of the relation classifier. We also convert the model outputs to rules to bring global explanations to this approach. This sequence model is trained using a hybrid strategy: supervised, when supervision from pre-existing patterns is available, and semi-supervised otherwise. In the latter situation, we treat the sequence model’s labels as latent variables, and learn the best assignment that maximizes the performance of the relation classifier. We evaluate the proposed approach on the two datasets and show that the sequence model provides labels that serve as accurate explanations for the relation classifier’s decisions, and, importantly, that the joint training generally improves the performance of the relation classifier. We also evaluate the performance of the generated rules and show that the new rules are great add-on to the manual rules and bring the rule-based system much closer to the neural models.}",
+    issn = {0891-2017},
+    doi = {10.1162/coli_a_00463},
+    url = {https://doi.org/10.1162/coli\_a\_00463},
+    url_Slides = {https://clulab.org/papers/twoflints-slides.pptx},
+    url_Videos = {vhttps://clulab.org/papers/twoflints-ideo.mp4}
+    eprint = {https://direct.mit.edu/coli/article-pdf/doi/10.1162/coli\_a\_00463/2046371/coli\_a\_00463.pdf},
 }
 
-@inproceedings{liang2020can,
-  title={Do Transformers Dream of Inference, or Can Pretrained Generative Models Learn Implicit Inferential Rules?},
-  author={Liang, Zhengzhong and Surdeanu, Mihai},
-  booktitle={Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Workshop on Insights from Negative Results in NLP},
-  url={http://clulab.org/papers/emnlp2020-can.pdf},
-  year={2020}
-}
-
-@article{van2020covid,
-  title={The Language of Food during the Pandemic: Hints about the Dietary Effects of Covid-19},
-  author={Hoang Van and Ahmad Musa and Mihai Surdeanu and Stephen Kobourov},
-  journal={arXiv preprint arXiv:2010.07466},
-  url={https://arxiv.org/abs/2010.07466},
-  year={2020}
-}
-
-@article{liang2020using,
-  title={Using the Hammer Only on Nails: A Hybrid Method for Evidence Retrieval for Question Answering},
-  author={Liang, Zhengzhong and Zhao, Yiyun and Surdeanu, Mihai},
-  journal={arXiv preprint arXiv:2009.10791},
-  url = "https://arxiv.org/abs/2009.10791",
-  year={2020}
-}
-
-@inproceedings{yadav2020having,
-  title={Having Your Cake and Eating it Too: Training Neural Retrieval for Language Inference without Losing Lexical Match},
-  author={Yadav, Vikas and Bethard, Steven and Surdeanu, Mihai},
-  booktitle={Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval},
-  pages={1625--1628},
-  url = "sigir2020-havingcake.pdf",
-  note = "Erratum: the PDF linked here contains the proper support acknowledgment as well as a COI statement for one of the authors, which are missing in the SIGIR camera-ready paper.",
-  year={2020}
-}
-
-
-@InProceedings{jansen-EtAl:2016:COLING,
-  author    = {Jansen, Peter  and  Balasubramanian, Niranjan  and  Surdeanu, Mihai  and  Clark, Peter},
-  title     = {What's in an Explanation? Characterizing Knowledge and Inference Requirements for Elementary Science Exams},
-  booktitle = {Proceedings of COLING 2016, the 26th International Conference on Computational Linguistics: Technical Papers},
-  month     = {December},
-  year      = {2016},
-  address   = {Osaka, Japan},
-  publisher = {The COLING 2016 Organizing Committee},
-  pages     = {2956-2965},
-  url       = {http://aclweb.org/anthology/C16-1278},
-  url_Data  = {http://allenai.org/data.html},
-}
 
