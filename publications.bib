@@ -9,6 +9,20 @@
     abstract = "In this work, we revisit the problem of semi-supervised named entity recognition (NER) focusing on extremely light supervision, consisting of a lexicon containing only 10 examples per class. We introduce ELLEN, a simple, fully modular, neuro-symbolic method that blends fine-tuned language models with linguistic rules. These rules include insights such as ''One Sense Per Discourse'', using a Masked Language Model as an unsupervised NER, leveraging part-of-speech tags to identify and eliminate unlabeled entities as false negatives, and other intuitions about classifier confidence scores in local and global context. ELLEN achieves very strong performance on the CoNLL-2003 dataset when using the minimal supervision from the lexicon above. It also outperforms most existing (and considerably more complex) semi-supervised NER methods under the same supervision settings commonly used in the literature (i.e., 5% of the training data). Further, we evaluate our CoNLL-2003 model in a zero-shot scenario on WNUT-17 where we find that it outperforms GPT-3.5 and achieves comparable performance to GPT-4. In a zero-shot setting, ELLEN also achieves over 75% of the performance of a strong, fully supervised model trained on gold data. Our code is available at: https://github.com/hriaz17/ELLEN",
 }
 
+@article{10.1371/journal.pbio.3002540,
+    doi = {10.1371/journal.pbio.3002540},
+    author = {Kamat, Aditya AND Tran, Ngat T. AND Sharda, Mohak AND Sontakke, Neha AND Le, Tung B. K. AND Badrinarayanan, Anjana},
+    journal = {PLOS Biology},
+    publisher = {Public Library of Science},
+    title = {Widespread prevalence of a methylation-dependent switch to activate an essential DNA damage response in bacteria},
+    year = {2024},
+    month = {03},
+    volume = {22},
+    url = {https://doi.org/10.1371/journal.pbio.3002540},
+    pages = {1-25},
+    abstract = {DNA methylation plays central roles in diverse cellular processes, ranging from error-correction during replication to regulation of bacterial defense mechanisms. Nevertheless, certain aberrant methylation modifications can have lethal consequences. The mechanisms by which bacteria detect and respond to such damage remain incompletely understood. Here, we discover a highly conserved but previously uncharacterized transcription factor (Cada2), which orchestrates a methylation-dependent adaptive response in Caulobacter. This response operates independently of the SOS response, governs the expression of genes crucial for direct repair, and is essential for surviving methylation-induced damage. Our molecular investigation of Cada2 reveals a cysteine methylation-dependent posttranslational modification (PTM) and mode of action distinct from its Escherichia coli counterpart, a trait conserved across all bacteria harboring a Cada2-like homolog instead. Extending across the bacterial kingdom, our findings support the notion of divergence and coevolution of adaptive response transcription factors and their corresponding sequence-specific DNA motifs. Despite this diversity, the ubiquitous prevalence of adaptive response regulators underscores the significance of a transcriptional switch, mediated by methylation PTM, in driving a specific and essential bacterial DNA damage response.},
+    number = {3},}
+
 @inproceedings{fahmida2024fs-meta-dataset,
     title = " Towards Realistic Few-Shot Relation Extraction: A New Meta Dataset and Evaluation",
     author = " Fahmida Alam and Md Asiful Islam and Robert Vacareanu and Mihai Surdeanu ",
@@ -19,6 +33,13 @@
     publisher = "European Language Resources Association",
 url = “http://arxiv.org/abs/2404.04445”,
     abstract = “We introduce a meta dataset for few-shot relation extraction, which includes two datasets derived from existing supervised relation extraction datasets – NYT29 (Takanobu et al. , 2019 ; Nayak and Ng , 2020) and WIKIDATA (Sorokin and Gurevych, 2017) – as well as a few-shot form of the TACRED dataset (Sabo et al., 2021). Importantly, all these few-shot datasets were generated under realistic assumptions such as: the test relations are different from any relations a model might have seen before, limited training data, and a preponderance of candidate relation mentions that do not correspond to any of the relations of interest. Using this large resource, we conduct a comprehensive evaluation of six recent few-shot relation extraction methods, and observe that no method comes out as a clear winner. Further, the overall performance on this task is low, indicating substantial need for future research. We release all versions of the data, i.e., both supervised and few-shot, for future research.”
+}
+
+@inproceedings{shen2023efficient,
+  title={Efficient Variational Sequential Information Control},
+  author={Shen, Jianwei and Pacheco, Jason},
+  booktitle={NeurIPS 2023 Workshop on Adaptive Experimental Design and Active Learning in the Real World},
+  year={2023}
 }
 
 @inproceedings{akoju-etal-2023-synthetic,
