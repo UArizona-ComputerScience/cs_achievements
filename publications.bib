@@ -1,3 +1,47 @@
+@inproceedings{vacareanu2024softrules,
+    title = "Best of Both Worlds: A Pliable and Generalizable Neuro-Symbolic Approach for Relation Classification",
+    author = "Robert Vacareanu and Fahmida Alam and Md Asiful Islam and Haris Riaz and Mihai Surdeanu",
+    booktitle = "Findings of the Association for Computational Linguistics: NAACL 2024",
+    month = jun,
+    year = "2024",
+    address = "Mexico City, Mexico",
+    publisher = "Association for Computational Linguistics",
+    abstract = "This paper introduces a novel neuro-symbolic architecture for relation classification (RC) that combines rule-based methods with contemporary deep learning techniques. This approach capitalizes on the strengths of both paradigms: the adaptability of rule-based systems and the generalization power of neural networks. Our architecture consists of two components: a declarative rule-based model for transparent classification and a neural component to enhance rule generalizability through semantic text matching. Notably, our semantic matcher is trained in an unsupervised domain-agnostic way, solely with synthetic data. Further, these components are loosely coupled, allowing for rule modifications without retraining the semantic matcher. In our evaluation, we focused on two few-shot relation classification datasets: Few-Shot TACRED and a Few-Shot version of NYT29. We show that our proposed method outperforms previous state-of-the-art models in three out of four settings, despite not seeing any human-annotated training data. Further, we show that our approach remains modular and pliable, i.e., the corresponding rules can be locally modified to improve the overall model. Human interventions to the rules for the TACRED relation \texttt{org:parents} boost the performance on that relation by as much as 26\% relative improvement, without negatively impacting the other relations, and without retraining the semantic matching component.",
+}
+
+@inproceedings{vacareanu2024ActiveLearningNER,
+    title = "Active Learning Design Choices for NER with Transformers",
+    author = "Robert Vacareanu and Enrique Noriega-Atala and Gus Hahn-Powell and Marco A. Valenzuela-Escarcega and Mihai Surdeanu ",
+    booktitle = "Proceedings of the Joint International Conference on Computational Linguistics, Language Resources and Evaluation",
+    month = may,
+    year = "2024",
+    address = "Torino, Italy",
+    publisher = "European Language Resources Association",
+    abstract = "We explore multiple important choices that have not been analyzed in conjunction regarding active learning for token classification using transformer networks. These choices are: (i) how to select what to annotate, (ii) decide whether to annotate entire sentences or smaller sentence fragments, (iii) how to train with incomplete annotations at token-level, and (iv) how to select the initial seed dataset. We explore whether annotating at sub-sentence level can translate to an improved downstream performance by considering two different sub-sentence annotation strategies: (i) entity-level, and (ii) token-level. These approaches result in some sentences being only partially annotated. To address this issue, we introduce and evaluate multiple strategies to deal with partially-annotated sentences during the training process. We show that annotating at the sub-sentence level achieves comparable or better performance than sentence-level annotations with a smaller number of annotated tokens. We then explore the extent to which the performance gap remains once accounting for the annotation time and found that both annotation schemes perform similarly.",
+}
+
+@inproceedings{vacareanu-etal-2024-weak,
+    title = "A Weak Supervision Approach for Few-Shot Aspect Based Sentiment Analysis",
+    author = "Vacareanu, Robert  and
+      Varia, Siddharth  and
+      Halder, Kishaloy  and
+      Wang, Shuai  and
+      Paolini, Giovanni  and
+      Anna John, Neha  and
+      Ballesteros, Miguel  and
+      Muresan, Smaranda",
+    editor = "Graham, Yvette  and
+      Purver, Matthew",
+    booktitle = "Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = mar,
+    year = "2024",
+    address = "St. Julian{'}s, Malta",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.eacl-long.167",
+    pages = "2734--2752",
+    abstract = "We explore how weak supervision on abundant unlabeled data can be leveraged to improve few-shot performance in aspect-based sentiment analysis (ABSA) tasks. We propose a pipeline approach to construct a noisy ABSA dataset, and we use it to adapt a pre-trained sequence-to-sequence model to the ABSA tasks. We test the resulting model on three widely used ABSA datasets, before and after fine-tuning. Our proposed method preserves the full fine-tuning performance while showing significant improvements (15.84 absolute F1) in the few-shot learning scenario for the harder tasks. In zero-shot (i.e., without fine-tuning), our method outperforms the previous state of the art on the aspect extraction sentiment classification (AESC) task and is, additionally, capable of performing the harder aspect sentiment triplet extraction (ASTE) task.",
+}
+
 @article{wang2024naaclfindings,
     title = "Interpreting Answers to Yes-No Questions in Dialogues from Multiple Domains",
     author = "Wang, Zijie and 
@@ -8,7 +52,7 @@
     year = "2024",
     address = "Mexico City, Mexico",
     publisher = "Association for Computational Linguistics",
-
+}
 @inproceedings{riaz2024ellen,
     title = "ELLEN: Extremely Lightly Supervised Learning For Efficient Named Entity Recognition",
     author = "Haris Riaz and Razvan-Gabriel Dumitru and Mihai Surdeanu",
