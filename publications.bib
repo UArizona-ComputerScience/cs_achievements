@@ -64,14 +64,15 @@ abstract = {Building clinical registries is an important step in clinical resear
     abstract = "We explore how weak supervision on abundant unlabeled data can be leveraged to improve few-shot performance in aspect-based sentiment analysis (ABSA) tasks. We propose a pipeline approach to construct a noisy ABSA dataset, and we use it to adapt a pre-trained sequence-to-sequence model to the ABSA tasks. We test the resulting model on three widely used ABSA datasets, before and after fine-tuning. Our proposed method preserves the full fine-tuning performance while showing significant improvements (15.84 absolute F1) in the few-shot learning scenario for the harder tasks. In zero-shot (i.e., without fine-tuning), our method outperforms the previous state of the art on the aspect extraction sentiment classification (AESC) task and is, additionally, capable of performing the harder aspect sentiment triplet extraction (ASTE) task.",
 }
 
-@article{wang2024naaclfindings,
+@inproceedings{wang2024naaclfindings,
     title = "Interpreting Answers to Yes-No Questions in Dialogues from Multiple Domains",
     author = "Wang, Zijie and Rashid, Farzana and Blanco, Eduardo",
     booktitle = "Findings of the Association for Computational Linguistics: NAACL 2024",
     month = jun,
     year = "2024",
     address = "Mexico City, Mexico",
-    publisher = "Association for Computational Linguistics"
+    publisher = "Association for Computational Linguistics",
+    abstract = "People often answer yes-no questions without explicitly saying yes, no, or similar polar keywords. Figuring out the meaning of indirect answers is challenging, even for large language models. In this paper, we investigate this problem working with dialogues from multiple domains. We present new benchmarks in three diverse domains: movie scripts, tennis interviews, and airline customer service. We present an approach grounded on distant supervision and blended training to quickly adapt to a new dialogue domain. Experimental results show that our approach is never detrimental and yields F1 improvements as high as 11-34%.",
 }
 
 @inproceedings{riaz2024ellen,
@@ -146,15 +147,31 @@ pages = "157--168",
     abstract = "We introduce SexTok, a multi-modal dataset composed of TikTok videos labeled as sexually suggestive (from the annotator{'}s point of view), sex-educational content, or neither. Such a dataset is necessary to address the challenge of distinguishing between sexually suggestive content and virtual sex education videos on TikTok. Children{'}s exposure to sexually suggestive videos has been shown to have adversarial effects on their development (Collins et al. 2017). Meanwhile, virtual sex education, especially on subjects that are more relevant to the LGBTQIA+ community, is very valuable (Mitchell et al. 2014). The platform{'}s current system removes/punishes some of both types of videos, even though they serve different purposes. Our dataset contains video URLs, and it is also audio transcribed. To validate its importance, we explore two transformer-based models for classifying the videos. Our preliminary results suggest that the task of distinguishing between these types of videos is learnable but challenging. These experiments suggest that this dataset is meaningful and invites further study on the subject.",
 }
 
-@inproceedings{findings_emlp2023_zijie,
-  title = {Interpreting Indirect Answers to Yes-No Questions in Multiple Languages},
-  author = {Wang, Zijie and Hossain, Md Mosharaf and Mathur, Shivam and Melo, Terry Cruz and Ozler, Kadir Bulut and Park, Keun Hee and Quintero, Jacob and Rezaei, MohammadHossein and Shakya, Shreya Nupur and Uddin, Md Nayem and Blanco, Eduardo},
-  booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2023},
-  month = dec,
-  year = {2023},
-  address = {Singapore},
-  publisher = {Association for Computational Linguistics},
-  month_numeric = {12}
+@inproceedings{wang-etal-2023-interpreting,
+    title = "Interpreting Indirect Answers to Yes-No Questions in Multiple Languages",
+    author = "Wang, Zijie  and
+      Hossain, Md  and
+      Mathur, Shivam  and
+      Melo, Terry  and
+      Ozler, Kadir  and
+      Park, Keun  and
+      Quintero, Jacob  and
+      Rezaei, MohammadHossein  and
+      Shakya, Shreya  and
+      Uddin, Md  and
+      Blanco, Eduardo",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-emnlp.146",
+    doi = "10.18653/v1/2023.findings-emnlp.146",
+    pages = "2210--2227",
+    abstract = "Yes-no questions expect a yes or no for an answer, but people often skip polar keywords. Instead, they answer with long explanations that must be interpreted. In this paper, we focus on this challenging problem and release new benchmarks in eight languages. We present a distant supervision approach to collect training data, and demonstrate that direct answers (i.e., with polar keywords) are useful to train models to interpret indirect answers (i.e., without polar keywords). We show that monolingual fine-tuning is beneficial if training data can be obtained via distant supervision for the language of interest (5 languages). Additionally, we show that cross-lingual fine-tuning is always beneficial (8 languages).",
 }
 
 @inproceedings{zhao2023revisiting,
