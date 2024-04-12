@@ -8,6 +8,16 @@
     year = "2024",
     address = "Mexico City, Mexico",
     publisher = "Association for Computational Linguistics",
+
+@inproceedings{riaz2024ellen,
+    title = "ELLEN: Extremely Lightly Supervised Learning For Efficient Named Entity Recognition",
+    author = "Haris Riaz and Razvan-Gabriel Dumitru and Mihai Surdeanu",
+    booktitle = "Proceedings of the Joint International Conference on Computational Linguistics, Language Resources and Evaluation",
+    month = may,
+    year = "2024",
+    address = "Torino, Italy",
+    publisher = "European Language Resources Association",
+    abstract = "In this work, we revisit the problem of semi-supervised named entity recognition (NER) focusing on extremely light supervision, consisting of a lexicon containing only 10 examples per class. We introduce ELLEN, a simple, fully modular, neuro-symbolic method that blends fine-tuned language models with linguistic rules. These rules include insights such as ''One Sense Per Discourse'', using a Masked Language Model as an unsupervised NER, leveraging part-of-speech tags to identify and eliminate unlabeled entities as false negatives, and other intuitions about classifier confidence scores in local and global context. ELLEN achieves very strong performance on the CoNLL-2003 dataset when using the minimal supervision from the lexicon above. It also outperforms most existing (and considerably more complex) semi-supervised NER methods under the same supervision settings commonly used in the literature (i.e., 5% of the training data). Further, we evaluate our CoNLL-2003 model in a zero-shot scenario on WNUT-17 where we find that it outperforms GPT-3.5 and achieves comparable performance to GPT-4. In a zero-shot setting, ELLEN also achieves over 75% of the performance of a strong, fully supervised model trained on gold data. Our code is available at: https://github.com/hriaz17/ELLEN",
 }
 
 @article{10.1371/journal.pbio.3002540,
