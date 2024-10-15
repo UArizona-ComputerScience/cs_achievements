@@ -6,4 +6,4 @@ order: 2
 
 Some amazing awards to be listed here.
 
-- I receive the NeurIPS 2024 Scholar Award
+- Thang Duong receives the NeurIPS 2024 Scholar Award.
