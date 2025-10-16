@@ -1,3 +1,44 @@
+@inproceedings{uddin-etal-2024-asking,
+    title = "Asking and Answering Questions to Extract Event-Argument Structures",
+    author = "Uddin, Md Nayem  and
+      George, Enfa Rose  and
+      Blanco, Eduardo  and
+      Corman, Steven R.",
+    editor = "Calzolari, Nicoletta  and
+      Kan, Min-Yen  and
+      Hoste, Veronique  and
+      Lenci, Alessandro  and
+      Sakti, Sakriani  and
+      Xue, Nianwen",
+    booktitle = "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)",
+    month = may,
+    year = "2024",
+    address = "Torino, Italia",
+    publisher = "ELRA and ICCL",
+    url = "https://aclanthology.org/2024.lrec-main.142/",
+    pages = "1609--1626",
+    abstract = "This paper presents a question-answering approach to extract document-level event-argument structures. We automatically ask and answer questions for each argument type an event may have. Questions are generated using manually defined templates and generative transformers. Template-based questions are generated using predefined role-specific wh-words and event triggers from the context document. Transformer-based questions are generated using large language models trained to formulate questions based on a passage and the expected answer. Additionally, we develop novel data augmentation strategies specialized in inter-sentential event-argument relations. We use a simple span-swapping technique, coreference resolution, and large language models to augment the training instances. Our approach enables transfer learning without any corpora-specific modifications and yields competitive results with the RAMS dataset. It outperforms previous work, and it is especially beneficial to extract arguments that appear in different sentences than the event trigger. We also present detailed quantitative and qualitative analyses shedding light on the most common errors made by our best model."
+}
+
+@inproceedings{uddin-etal-2024-generating,
+    title = "Generating Uncontextualized and Contextualized Questions for Document-Level Event Argument Extraction",
+    author = "Uddin, Md Nayem  and
+      George, Enfa  and
+      Blanco, Eduardo  and
+      Corman, Steven",
+    editor = "Duh, Kevin  and
+      Gomez, Helena  and
+      Bethard, Steven",
+    booktitle = "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    month = jun,
+    year = "2024",
+    address = "Mexico City, Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.naacl-long.312/",
+    doi = "10.18653/v1/2024.naacl-long.312",
+    pages = "5612--5627",
+    abstract = "This paper presents multiple question generation strategies for document-level event argument extraction. These strategies do not require human involvement and result in uncontextualized questions as well as contextualized questions grounded on the event and document of interest. Experimental results show that combining uncontextualized and contextualized questions is beneficial,especially when event triggers and arguments appear in different sentences. Our approach does not have corpus-specific components, in particular, the question generation strategies transfer across corpora. We also present a qualitative analysis of the most common errors made by our best model."
+}
 @inproceedings{xie-etal-2022-extracting,
     title = "Extracting Space Situational Awareness Events from News Text",
     author = "Xie, Zhengnan  and
