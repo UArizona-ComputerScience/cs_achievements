@@ -1,3 +1,121 @@
+@inproceedings{fane-etal-2025-fane,
+    title = "Fane at {S}em{E}val-2025 Task 10: Zero-Shot Entity Framing with Large Language Models",
+    author = "Fane, Enfa  and
+      Surdeanu, Mihai  and
+      Blanco, Eduardo  and
+      Corman, Steven",
+    editor = "Rosenthal, Sara  and
+      Ros{\'a}, Aiala  and
+      Ghosh, Debanjan  and
+      Zampieri, Marcos",
+    booktitle = "Proceedings of the 19th International Workshop on Semantic Evaluation (SemEval-2025)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.semeval-1.251/",
+    pages = "1924--1934",
+    ISBN = "979-8-89176-273-2",
+    abstract = "Understanding how news narratives frame entities is crucial for studying media{'}s impact on societal perceptions of events. In this paper, we evaluate the zero-shot capabilities of large language models (LLMs) in classifying framing roles. Through systematic experimentation, we assess the effects of input context, prompting strategies, and task decomposition. Our findings show that a hierarchical approach of first identifying broad roles and then fine-grained roles, outperforms single-step classification. We also demonstrate that optimal input contexts and prompts vary across task levels, highlighting the need for subtask-specific strategies. We achieve a Main Role Accuracy of 89.4{\%} and an Exact Match Ratio of 34.5{\%}, demonstrating the effectiveness of our approach. Our findings emphasize the importance of tailored prompt design and input context optimization for improving LLM performance in entity framing."
+}
+
+@inproceedings{fane-etal-2025-bemeae,
+    title = "{BEMEAE}: Moving Beyond Exact Span Match for Event Argument Extraction",
+    author = "Fane, Enfa  and
+      Uddin, Md Nayem  and
+      Ikumariegbe, Oghenevovwe  and
+      Kashif, Daniyal  and
+      Blanco, Eduardo  and
+      Corman, Steven",
+    editor = "Chiruzzo, Luis  and
+      Ritter, Alan  and
+      Wang, Lu",
+    booktitle = "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    month = apr,
+    year = "2025",
+    address = "Albuquerque, New Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.naacl-long.295/",
+    doi = "10.18653/v1/2025.naacl-long.295",
+    pages = "5734--5749",
+    ISBN = "979-8-89176-189-6",
+    abstract = "Event Argument Extraction (EAE) is a key task in natural language processing, focusing on identifying and classifying event arguments in text. However, the widely adopted exact span match (ESM) evaluation metric has notable limitations due to its rigid span constraints, often misidentifying valid predictions as errors and underestimating system performance. In this paper, we evaluate nine state-of-the-art EAE models on the RAMS and GENEVA datasets, highlighting ESM{'}s limitations. To address these issues, we introduce BEMEAE (Beyond Exact Span Match for Event Argument Extraction), a novel evaluation metric that recognizes predictions that are semantically equivalent to or improve upon the reference. BEMEAE integrates deterministic components with a semantic matching component for more accurate assessment. Our experiments demonstrate that BEMEAE aligns more closely with human judgments. We show that BEMEAE not only leads to higher F1 scores compared to ESM but also results in significant changes in model rankings, underscoring ESM{'}s inadequacy for comprehensive evaluation of EAE."
+}
+
+@inproceedings{uddin-etal-2024-asking,
+    title = "Asking and Answering Questions to Extract Event-Argument Structures",
+    author = "Uddin, Md Nayem  and
+      George, Enfa Rose  and
+      Blanco, Eduardo  and
+      Corman, Steven R.",
+    editor = "Calzolari, Nicoletta  and
+      Kan, Min-Yen  and
+      Hoste, Veronique  and
+      Lenci, Alessandro  and
+      Sakti, Sakriani  and
+      Xue, Nianwen",
+    booktitle = "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)",
+    month = may,
+    year = "2024",
+    address = "Torino, Italia",
+    publisher = "ELRA and ICCL",
+    url = "https://aclanthology.org/2024.lrec-main.142/",
+    pages = "1609--1626",
+    abstract = "This paper presents a question-answering approach to extract document-level event-argument structures. We automatically ask and answer questions for each argument type an event may have. Questions are generated using manually defined templates and generative transformers. Template-based questions are generated using predefined role-specific wh-words and event triggers from the context document. Transformer-based questions are generated using large language models trained to formulate questions based on a passage and the expected answer. Additionally, we develop novel data augmentation strategies specialized in inter-sentential event-argument relations. We use a simple span-swapping technique, coreference resolution, and large language models to augment the training instances. Our approach enables transfer learning without any corpora-specific modifications and yields competitive results with the RAMS dataset. It outperforms previous work, and it is especially beneficial to extract arguments that appear in different sentences than the event trigger. We also present detailed quantitative and qualitative analyses shedding light on the most common errors made by our best model."
+}
+
+@inproceedings{uddin-etal-2024-generating,
+    title = "Generating Uncontextualized and Contextualized Questions for Document-Level Event Argument Extraction",
+    author = "Uddin, Md Nayem  and
+      George, Enfa  and
+      Blanco, Eduardo  and
+      Corman, Steven",
+    editor = "Duh, Kevin  and
+      Gomez, Helena  and
+      Bethard, Steven",
+    booktitle = "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    month = jun,
+    year = "2024",
+    address = "Mexico City, Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.naacl-long.312/",
+    doi = "10.18653/v1/2024.naacl-long.312",
+    pages = "5612--5627",
+    abstract = "This paper presents multiple question generation strategies for document-level event argument extraction. These strategies do not require human involvement and result in uncontextualized questions as well as contextualized questions grounded on the event and document of interest. Experimental results show that combining uncontextualized and contextualized questions is beneficial,especially when event triggers and arguments appear in different sentences. Our approach does not have corpus-specific components, in particular, the question generation strategies transfer across corpora. We also present a qualitative analysis of the most common errors made by our best model."
+}
+@inproceedings{xie-etal-2022-extracting,
+    title = "Extracting Space Situational Awareness Events from News Text",
+    author = "Xie, Zhengnan  and
+      Kwak, Alice Saebom  and
+      George, Enfa  and
+      Dozal, Laura W.  and
+      Van, Hoang  and
+      Jah, Moriba  and
+      Furfaro, Roberto  and
+      Jansen, Peter",
+    editor = "Calzolari, Nicoletta  and
+      B{\'e}chet, Fr{\'e}d{\'e}ric  and
+      Blache, Philippe  and
+      Choukri, Khalid  and
+      Cieri, Christopher  and
+      Declerck, Thierry  and
+      Goggi, Sara  and
+      Isahara, Hitoshi  and
+      Maegaard, Bente  and
+      Mariani, Joseph  and
+      Mazo, H{\'e}l{\`e}ne  and
+      Odijk, Jan  and
+      Piperidis, Stelios",
+    booktitle = "Proceedings of the Thirteenth Language Resources and Evaluation Conference",
+    month = jun,
+    year = "2022",
+    address = "Marseille, France",
+    publisher = "European Language Resources Association",
+    url = "https://aclanthology.org/2022.lrec-1.653/",
+    pages = "6077--6082",
+    abstract = "Space situational awareness typically makes use of physical measurements from radar, telescopes, and other assets to monitor satellites and other spacecraft for operational, navigational, and defense purposes. In this work we explore using textual input for the space situational awareness task. We construct a corpus of 48.5k news articles spanning all known active satellites between 2009 and 2020. Using a dependency-rule-based extraction system designed to target three high-impact events {--} spacecraft launches, failures, and decommissionings, we identify 1,787 space-event sentences that are then annotated by humans with 15.9k labels for event slots. We empirically demonstrate a state-of-the-art neural extraction system achieves an overall F1 between 53 and 91 per slot for event extraction in this low-resource, high-impact domain."
+}
+
 @article{finken25protest,
   author = {Finken, Tanner and Chen, Jesse and Rahaman, Sazzadur},
   title = {On the Characteristics and Impacts of Protestware Libraries},
