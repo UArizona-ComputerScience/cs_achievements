@@ -1,3 +1,26 @@
+@inproceedings{riaz-etal-2025-metasynth,
+    title = "{M}eta{S}ynth: Meta-Prompting-Driven Agentic Scaffolds for Diverse Synthetic Data Generation",
+    author = "Riaz, Haris  and
+      Bhabesh, Sourav Sanjukta  and
+      Arannil, Vinayak  and
+      Ballesteros, Miguel  and
+      Horwood, Graham",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2025",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-acl.962/",
+    doi = "10.18653/v1/2025.findings-acl.962",
+    pages = "18770--18803",
+    ISBN = "979-8-89176-256-5",
+    abstract = "Recent smaller language models such Phi-3.5 and Phi-4 rely on synthetic data generated using larger Language models. Questions remain about leveraging synthetic data for other use cases, such as adapting LLMs to specific domains. A key limitation of synthetic data is \textit{low diversity}, which negatively impacts its downstream applicability for improving other models. To address this, we propose MetaSynth, a method for generating synthetic data that enhances diversity through meta-prompting, where a language model orchestrates multiple ``expert'' LLM \textit{agents} to collaboratively generate data. Using only \textbf{25 million} tokens of synthetic data generated with MetaSynth, we successfully adapt a well-trained LLM (Mistral-7B) to two specialized domains{--}Finance and Biomedicine{--}without compromising the capabilities of the resulting model in general tasks. In addition, we evaluate the diversity of our synthetic data using seven automated metrics, and find that it approaches the diversity of LLM pre-training corpora.Continually pre-training Mistral-7B with MetaSynth notably outperforms the base LLM, showing improvements of up to 4.08{\%} in Finance and 13.75{\%} in Biomedicine. The same model shows degraded performance when trained on data generated using a template-based prompt, even when the template includes prior generations and varying In-Context exemplars of real data. Our findings suggest that a few million tokens of diverse synthetic data without mixing any real data, is sufficient for effective domain adaptation when using MetaSynth."
+}
+
 @inproceedings{fane-etal-2025-fane,
     title = "Fane at {S}em{E}val-2025 Task 10: Zero-Shot Entity Framing with Large Language Models",
     author = "Fane, Enfa  and
