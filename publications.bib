@@ -41,15 +41,23 @@
     abstract = "People often ask questions with false assumptions, a type of question that does not have regular answers. Answering such questions requires first identifying the false assumptions. Large Language Models (LLMs) often generate misleading answers to these questions because of hallucinations. In this paper, we focus on identifying and answering questions with false assumptions in several domains. We first investigate whether the problem reduces to fact verification. Then, we present an approach leveraging external evidence to mitigate hallucinations. Experiments with five LLMs demonstrate that (1) incorporating retrieved evidence is beneficial and (2) generating and validating atomic assumptions yields more improvements and provides an interpretable answer by pinpointing the false assumptions."
 }
 
-@inproceedings{islam-etal-2026-leg,
+@inproceedings{islam-surdeanu-2026-lightweight,
     title = "A Lightweight Explainable Guardrail for Prompt Safety",
-    author = "Islam, Md Asiful and Surdeanu, Mihai",
-    booktitle = "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)",
+    author = "Islam, Md Asiful  and
+      Surdeanu, Mihai",
+    editor = "Liakata, Maria  and
+      Moreira, Viviane P.  and
+      Zhang, Jiajun  and
+      Jurgens, David",
+    booktitle = "Proceedings of the 64th Annual Meeting of the {A}ssociation for {C}omputational {L}inguistics (Volume 1: Long Papers)",
     month = jul,
     year = "2026",
-    address = "San Diego, USA",
+    address = "San Diego, California, United States",
     publisher = "Association for Computational Linguistics",
-    url = "https://arxiv.org/pdf/2602.15853",
+    url = "https://aclanthology.org/2026.acl-long.2017/",
+    pages = "43573--43591",
+    ISBN = "979-8-89176-390-6",
+    abstract = "We propose a lightweight explainable guardrail (LEG) method to detect unsafe prompts. LEG uses a multi-task learning architecture to jointly learn a prompt classifier and an explanation classifier, where the latter labels prompt words that explain the safe/unsafe overall decision. LEG is trained on synthetic explanation data, which is generated using a novel strategy that counteracts the confirmation biases of LLMs. Lastly, LEG{'}s training process uses a novel loss that captures global explanation signals as a weak supervision and combines cross-entropy and focal losses with uncertainty-based weighting. LEG obtains equivalent or better performance than the state-of-the-art for both prompt classification and explainability, both in-domain and out-of-domain on three datasets, despite the fact that its model size is considerably smaller than current approaches."
 }
 
 @inproceedings{chen2026secret,
