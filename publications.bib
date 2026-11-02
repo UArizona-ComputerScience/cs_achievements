@@ -14,6 +14,26 @@
     abstract = "Despite the remarkable reasoning capabilities of large language models, they still struggle with one-shot relation extraction without predefined relation labels. We identify two pitfalls: models are often misled by irrelevant tokens instead of relation-conveying semantics, and they often fail to align with the abstraction level human annotators expect. We introduce a novel framework that closes this gap with two components: (1) COGRE, a cognitively-inspired reasoning framework that structures RE into a series of processes mimicking human text-processing; and (2) HIT@DICT, a reinforcement learning intermediate reward strategy that encourages reasoning to align with relational labels by rewarding relation-relevant phrases in reasoning. The reward is derived on a credit dictionary automatically extracted from correct predictions. Our experiments show that our framework improves both accuracy and explanation quality by addressing these two pitfalls. For example, COGRE with Qwen2.5-14B-Instruct on One-shot NYT29 achieves 24.65{\%} F1, surpassing prior reasoning-based designs. Optimizing this approach with RL using HIT@DICT further improves performance by +23.46{\%} points. Finally, human evaluation shows that our best model generates relational phrases closely aligned with gold labels, increasing human explanation quality ratings by 54{\%} (relative)."
 }
 
+@inproceedings{tan-blanco-2026-negation,
+    title = "Not all Negation Cues are Equal: Affixal Negations Yield Better Negation Understanding",
+    author = "Tan, Tian  and
+      Blanco, Eduardo",
+    editor = "Lee, Hung-Yi  and
+      Dev, Sunipa  and
+      Li, Jessy  and
+      Elliott, Desmond",
+    booktitle = "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    month = oct,
+    year = "2026",
+    address = "Budapest, Hungary",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.emnlp-main.1673/",
+    doi = "10.18653/2026.emnlp-main.1673",
+    pages = "38056--38076",
+    ISBN = "979-8-89176-459-0",
+    abstract = "Negation remains a longstanding challenge for both language models (LMs) and large language models (LLMs). Prior work mainly focuses on a small set of high-frequency single-word negation cues, such as ``not'' and ``never'', with limited exploration of broader negation types and modern LLMs. To address this gap, we construct NegCue, a large-scale dataset containing over 1.8M samples spanning single-word, multi-word, and affixal negation with more than 200 unique cues. We further pre-train both encoder-only LMs and LLMs on NegCue to investigate how different negation types affect negation understanding. Experiments on five downstream benchmarks show that negation types contribute unevenly to performance gains under the same training scale. In particular, affixal negation yields the largest improvements, while the gains from the commonly studied single-word negation are remain modest. Moreover, our results demonstrate that further pre-training improves negation understanding for both LMs and LLMs."
+}
+
 @article{hasan2026visualization,
     title = "A visualization tool for controlling acoustic qubit analogues",
     author = "Hasan, Md Afridi  and
